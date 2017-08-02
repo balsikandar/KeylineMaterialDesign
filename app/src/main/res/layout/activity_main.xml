@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/showKeylines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Show keylines"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/hideKeylines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showKeylines"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Hide Keylines"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+</RelativeLayout>
